@@ -1,4 +1,4 @@
-#!/bin/sh -xv
+#!/bin/sh
 
 ab=`expr $1 \* $2`
 while [ 0 -lt $1 ]

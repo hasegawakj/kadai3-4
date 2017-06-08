@@ -1,4 +1,4 @@
-#!/bin/sh -xv
+#!/bin/sh
 
 tmp=/tmp/$$
 
@@ -16,5 +16,6 @@ diff $tmp-ans $tmp-out || ERROR_EXIT "TEST-2"
 
 echo OK
 rm -f $tmp-*
+echo "テストP終了ステータス"
+echo $?
 exit 0
-echo END
