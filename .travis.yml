@@ -1,7 +1,7 @@
 language: bash
 script:
-  -bash ./ktest_same1.sh
-  -bash ./ktest_same2.sh
-  -bash ./ktest_same3.sh
-  -bash ./ktest_same4.sh
+  - ./ktest_same1.sh
+  - ./ktest_same2.sh
+  - ./ktest_same3.sh
+  - ./ktest_same4.sh
 
