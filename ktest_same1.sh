@@ -17,3 +17,4 @@ diff $tmp-ans $tmp-out || ERROR_EXIT "TEST-2"
 echo OK
 rm -f $tmp-*
 exit 0
+echo END
